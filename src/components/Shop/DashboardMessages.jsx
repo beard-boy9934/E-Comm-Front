@@ -10,8 +10,8 @@ import { TfiGallery } from "react-icons/tfi";
 import socketIO from "socket.io-client";
 import { format } from "timeago.js";
 import {phone} from "phone";
-// const ENDPOINT = "https://socket-ecommerce-tu68.onrender.com/";
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://e-comm-socket.onrender.com";
+// const ENDPOINT = "http://localhost:4000/";
 const socketId = socketIO(ENDPOINT, { transports: ["websocket"] });
 const websiteRegex = /(?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-&?=%.]+/;
 
